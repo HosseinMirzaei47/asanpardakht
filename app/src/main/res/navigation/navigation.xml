@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="hosseinmirzaei.asanpardakht.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/layout_home">
+
+        <action
+            android:id="@+id/action_homeFragment_to_receiptFragment"
+            app:destination="@id/receiptFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/receiptFragment"
+        android:name="hosseinmirzaei.asanpardakht.ReceiptFragment"
+        android:label="ReceiptFragment"
+        tools:layout="@layout/layout_receipt">
+
+        <argument
+            android:name="moneyAmount"
+            android:defaultValue="0.0"
+            app:argType="string" />
+
+        <argument
+            android:name="ownerName"
+            android:defaultValue=""
+            app:argType="string" />
+
+        <argument
+            android:name="ownerCardNumber"
+            android:defaultValue="۶٢١۹-۸۶١۰-۴۷۶۷-۴۷١۷"
+            app:argType="string" />
+
+    </fragment>
+
+</navigation>
