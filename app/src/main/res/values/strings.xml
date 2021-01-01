@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Asan Pardakht</string>
+    <string name="transfer_report">گزارش تراکنش</string>
+    <string name="todo">TODO</string>
+    <string name="successful_transfer">تراکنش موفق</string>
+    <string name="transfer_card">انتقال وجه کارت به کارت</string>
+    <string name="date">تاریخ</string>
+    <string name="price">مبلغ</string>
+    <string name="card1">کارت مبدا</string>
+    <string name="card2">کارت مقصد</string>
+    <string name="name">بنام</string>
+    <string name="tracking_number">شماره ارجاع</string>
+    <string name="bank_reference">شماره مرجع بانک: ۰٢۵٢١۷١۴۷۸٢۵</string>
+    <string name="add_to_common">افزودن کارت مقصد به ورودی های پرکاربرد</string>
+    <string name="return_btn">بازگشت</string>
 </resources>
